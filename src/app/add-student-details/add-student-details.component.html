@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p class="text-center fs-3 text-primary-emphasis mt-2"><i class="fa-solid fa-child"></i> ADD STUDENT DETAILS</p>
+            <p class="text-center">
+                Student contact details typically include their name, email address, phone number, and mailing address.
+Contact details are important for schools and universities to communicate with students about academic matters, events, and emergencies.
+It's important for students to keep their contact details up-to-date to ensure they receive important information from their school or university.
+In some cases, student contact details may also include emergency contact information for family members or guardians.
+Schools and universities have a responsibility to protect student contact details and ensure they are only used for legitimate academic and administrative purposes.
+
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+ <!-- form and image -->
+ <div class="container">
+    <div class="row">
+        <!-- form -->
+        
+
+        <div class="col-6">
+           <form class="border border-3 p-5 mb-3">
+            
+            <input [(ngModel)]="student.id" name="studentid" type="text" placeholder="Enter student Id" class="form-control mb-2">
+            <input [(ngModel)]="student.name" name="studentname" type="text" placeholder="Enter student Name" class="form-control mb-2">
+            <input [(ngModel)]="student.email" name="studentemail" type="text" placeholder="Enter student Email" class="form-control  mb-2">
+            <input [(ngModel)]="student.photo" name="studentphoto"  type="text" placeholder="Enter student Photo url" class="form-control  mb-2">
+            <input [(ngModel)]="student.phone" name="studentphone"  type="text" placeholder="Enter student phone number" class="form-control  mb-2">
+            <input [(ngModel)]="student.bloodgroup" name="studentbloodgroup"  type="text" placeholder="Enter student blood group" class="form-control  mb-2">
+            <input [(ngModel)]="student.class" name="studentclass"  type="text" placeholder="Enter student class" class="form-control  mb-2">
+            <input [(ngModel)]="student.section" name="studentsection"  type="text" placeholder="Enter student section" class="form-control  mb-2">
+            
+            
+            <!-- <select  class="form-control">
+                <option value=""selected hidden disabled>Select</option>
+                <option value="{{group.id}}" *ngFor="let student of allstudent" >{{student.name}} </option> 
+            </select> -->
+
+            <input (click)="addstudent()" type="button" value="Create" class="btn btn-primary mt-2 ">
+            <a routerLink="/" class="btn btn-danger mt-2" style="float:right">Close</a>
+           
+           </form>
+        </div>
+        
+        <!-- image -->
+        <div class="col-6 ">
+            <img class="img-icon ms-5" [src]="student.photo" alt="">
+       </div>
+             
+        
+    </div>
+</div>

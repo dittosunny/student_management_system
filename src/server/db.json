@@ -1,0 +1,44 @@
+{
+  "student": [
+    {
+      "id": "66",
+      "name": "abin john",
+      "photo": "https://cdn.vectorstock.com/i/preview-1x/66/96/3d-simple-user-icon-isolated-vector-45746696.webp",
+      "email": "abinjacob88@gmail.com",
+      "phone": "9964532110",
+      "bloodgroup": "B+",
+      "class": "VIII",
+      "section": "A"
+    },
+    {
+      "id": "59",
+      "name": "Harry kane",
+      "email": "harrykane@gmail.com",
+      "photo": "https://cdn.vectorstock.com/i/preview-1x/53/42/user-member-avatar-face-profile-icon-vector-22965342.webp",
+      "phone": "7876764534",
+      "bloodgroup": "O-",
+      "class": "IX",
+      "section": "D"
+    },
+    {
+      "photo": "https://cdn.pixabay.com/photo/2014/04/02/10/54/person-304893_960_720.png",
+      "id": "78",
+      "name": "naveen",
+      "email": "naveencj60@gamil.com",
+      "phone": "8576765994",
+      "bloodgroup": "B+",
+      "class": "XI",
+      "section": "D"
+    },
+    {
+      "id": "120",
+      "name": "deepak",
+      "email": "deepakdl120@gmail.com",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJxA7pQkxq3NaB1gvfVi6jV25AHuY_CEjk-Q&usqp=CAU",
+      "phone": "7074788312",
+      "bloodgroup": "A+",
+      "class": "VI",
+      "section": "C"
+    }
+  ]
+}

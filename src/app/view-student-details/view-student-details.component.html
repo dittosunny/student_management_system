@@ -1,0 +1,64 @@
+<div class="container">
+    <!-- heading with content -->
+    <div class="row">
+        <div class="col">
+            <!-- heading -->
+            <h1 class="text-dark text-center m-4">VIEW STUDENT DETAILS</h1>
+            <!-- content -->
+       
+            <p class="text-center">Student contact details typically include their name, email address, phone number, and mailing address.
+                Contact details are important for schools and universities to communicate with students about academic matters, events, and emergencies.
+                It's important for students to keep their contact details up-to-date to ensure they receive important information from their school or university.
+                In some cases, student contact details may also include emergency contact information for family members or guardians.
+                Schools and universities have a responsibility to protect student contact details and ensure they are only used for legitimate academic and administrative purposes.
+                </p>
+              
+        </div>
+    </div>
+
+    <!-- form and image -->
+    <div class="container">
+        <div class="row">
+            <h3 class="mt-3"> STUDENT DETAILS</h3>
+            <!-- form -->
+            <div class="col-6">
+
+                <ul class="list-group border border-dark">
+                    <li class="list-group-item border border-dark"> NAME:{{student.name}}
+                        <!-- view -->
+                    </li>
+                    <li class="list-group-item border border-dark">Email:{{student.email}}
+                        <!-- EDIT -->
+
+                    </li>
+                    <li class="list-group-item border border-dark">Mobile:{{student.phone}}
+                        <!-- DELETE -->
+                    </li>
+                    
+                    <li class="list-group-item border border-dark">Blood group:{{student.bloodgroup}}
+                        <!-- EDIT -->
+
+                    </li>
+                    <li class="list-group-item border border-dark">class:{{student.class}}
+                        <!-- EDIT -->
+
+                    </li>
+                    <li class="list-group-item border border-dark">Section:{{student.section}}
+                        <!-- EDIT -->
+                    </li>
+                </ul> 
+
+                <a routerLink="/" class="btn btn-primary my-4" >Go Back</a>
+
+            </div>
+            
+            <!-- image -->
+            <div class="col-6 ">
+                <img class="img_container img-icon ms-5 img-fluid w-50 h-50" [src]="student.photo" alt="">
+           </div>
+                 
+            
+        </div>
+    </div>
+</div>
+
